@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.SurnameNPTests.Sprint1.Task3.V10.Lib;
 
 namespace Tyuiu.SurnameNPTests.Sprint1.Task3.V10
 {
@@ -10,7 +11,8 @@ namespace Tyuiu.SurnameNPTests.Sprint1.Task3.V10
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello world!");
+			DataService ds = new DataService();
+			Console.WriteLine(ds.NumberToMoney(305));
 		}
 	}
 }
